@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body{
+  width: 640px;
+  margin: 4rem auto;
+  height: 800px;
+  box-shadow: 0px 50px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  background-color: rgb(102, 163, 255);
+  
+}
+
+
+.top-name {
+  font-size: 300%;
+  font-family: sans-serif;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.2);
+  border: 3px solid #000000;
+}
+
+.tweet-area {
+  
+  width: 640px;
+  font-size: 100%;
+  margin: 0rem;
+
+  
+  
+
+}
+
+.app-text {
+  width: 578px;
+  margin: 2rem ;
+  height: 150px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  font-size: 100%;
+  font-family: sans-serif;
+  text-align: center;
+  border: 3px solid #000000;
+
+}
+
+.click-botton {
+  max-width: 960px;
+  margin: 0 auto;
+  border: 0px solid rgb(255, 255, 255);
+  text-align: end;
+  
+  
+}
+
+.button1 {
+  padding: 20px;
+  margin: 0rem;
+  font-family: sans-serif;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  transition:  all 0.25s ease;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  border: 3px solid #000000;
+}
+
+
+.todo-title {
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  padding: 0 10px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 3px solid #000000;
+}
+
+.addlike-todo {
+  margin-top: 13px;
+  height: 35px;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  background: rgb(102, 163, 255);
+  color: #F5F8FA;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 3px solid #000000;
+}
+
+.delete-todo {
+  margin-top: 13px;
+  height: 35px;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  background: rgb(255, 125, 125);
+  color: #F5F8FA;
+  border-radius: 50px;
+  cursor: pointer;
+  left: 10%;
+  border: 3px solid #000000;
+  
+}
+
+.todo {
+  margin: 20px 0;
+  color: #14171A;
+  background: #ffffff;
+  padding: 8px 10px;
+  text-align: start;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 3px solid #000000;
+}
